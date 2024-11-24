@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=clouddemob1b0;AccountKey=IVCsXOJA2GXVN+Our1LRxA0rr1oxNAXKnCwDtj8oOUS7j58epMA9G/jV6FCYDc2mPpzMKeqw44pb+AStxH9EZg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clouddemob1b0;AccountKey=IVCsXOJA2GXVN+Our1LRxA0rr1oxNAXKnCwDtj8oOUS7j58epMA9G/jV6FCYDc2mPpzMKeqw44pb+AStxH9EZg==",
+    "WEBSITE_CONTENTSHARE": "microservices-2",
+    "MyDbConnection": "mongodb://cosmo-demo:HusiL3WaBtQUmxbSgbyTdcm3wEE5C7FaKlVL9D6YHBjBuWHCDSnYbaT8dUjWfNtPGaKHYUGZYJefACDbnS2ToQ==@cosmo-demo.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@cosmo-demo@"
+  }
+}
