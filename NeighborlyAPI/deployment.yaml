@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trungvq7-api-img
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: trungvq7-api-img
+  template:
+    metadata:
+      labels:
+        app: trungvq7-api-img
+    spec:
+      containers:
+      - name: trungvq7-api-img
+        image: acrtrungvq7.azurecr.io/trungvq7-api-img:v1
+        ports:
+        - containerPort: 80
